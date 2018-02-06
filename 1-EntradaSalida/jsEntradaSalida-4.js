@@ -4,6 +4,10 @@
 */
 function Mostar()
 {
-	
+	var nombre;
+	nombre= prompt("porfavor ingresa tu nombre");
+	document.getElementById('elNombre').value= nombre 
+	//el igual se pone al final para que 
+
 }
 
