@@ -1,0 +1,69 @@
+var dato;
+alert();
+alert("el dato es:" + dato);
+dato = prompt ( );
+
+
+document.getelementById('id')
+
+
+
+cuando sumar y cuando concatenar (si hay una palabra la concateno y son dos numeros los sumo).-
+cuando algo es una palabra y cuando es una letra?
+
+- vas numeroUno="22"; (palabra por que esta entre comillas).-
+- varc numeroDos=22 (numero por que esta sin comillas).-
+
+el prompt siempre devuelve una palabra
+el get element tambien
+
+
+{
+ var resultado;
+ var numeroUno=2;
+ var numeroDos=3;
+ resultado=numeroUno+numeroDos;
+ alert(resultado);
+}
+ aca el resultado me da 5.-
+
+{
+ var resultado;
+ var numeroUno="2";
+ var numeroDos=3;
+ resultado=numeroUno+numeroDos;
+ alert(resultado);
+}
+
+aca el resultado me da 23.-
+
+los datos usando prompt o get element siempre va a ser texto. con numeros tengo que usar otra cosa,.
+
+paseint --> transforma o intenta una letra a algo (int viene de numero entero)
+		- se puede usar de varias maneras.-
+		- tiene que tomar de los html los dos id del ejercicio 6.-
+		- el parseint toma y devuelve transformado.-
+		- numeroUno = parsint(numeroUno); --> agarre lo tranforme en entero y lo guarde en numero uno
+		- hay foto tomada.-
+		- resumen de operacion (foto) se hace mas simple y corto lo mismo.-
+		- hay que tener cuidado en los resumenes que hacemos, osea lo de hacer en un alinea (por que pueda salir mal), es mejor ser mas ordenado.-
+		- cuando agrego parseint (y pongo algo que no es un numero y me sale null en pantalla);
+
+- ejercicio 7		- me olvide en este poner el getelementbyid en todas (suma resta multiplicacion division).-
+			- parseint no se aplica en multiplicacion division y resta.-
+
+- ejercicio 8
+		- vamos a aprender a usar el simbolo de porcentaje.-
+		- los nros primos solo son divisibles por si mismos.-
+		- para saber si un nro es primo o no debo obtener el resto.-
+		- ningun nro es divisible por mas de la mitad del mismo.-
+		- 
+		  {
+			var resultado;
+			resultado=10%2;
+			alert(resultado);
+			resultado=2%10;
+			alert(resultado);
+		  }
+
+
