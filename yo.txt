@@ -147,7 +147,12 @@ ejercicio 3 de if
 					}
 
 						(ver po que no anda).-
-	
+
+
+
+para cargar carpeta en gibhut		- entro en la pagina del curso ingreso js
+					- upload files
+					- y ahi cargo la pagina
 
 
 
