@@ -66,4 +66,89 @@ paseint --> transforma o intenta una letra a algo (int viene de numero entero)
 			alert(resultado);
 		  }
 
+- ejercicio 9
+		- camelcase la primer letra de todas las palabras va en mayuscula.-
+		- sueldo + sueldo (lo saco 10 sobre 100).- primero se tendria que sacar el 10% del sueldo.-
+		- sacar factor comun (separo en terminos) multiplico 1*sueldo.-
+		- saco el factor comun de sueldo (1 + 10) esto me da sueldo * 1*0.1 que es 1.1.-
+		- 				      100
+		- si le tengo que descontar el 25% seria (sueldoConAumento=sueldo*0.75) le hago la resta del 100% del 25%.-
+		- aprender  el tema de sacar porcentaje.-
+		- me falto otra ves el cierre }
+		- tengo que ver que onda
+
+		- {
+			var sueldo;
+			var resultado;
+
+			sueldo=document.getElementById('sueldo').value;
+			sueldo=parseInt(sueldo);
+			resultado=sueldo*1.10;
+			document.getElementById('resultado').value=resultado;
+		  }	
+
+		- me equivoco en pequeñas cosas (cambie var y puse var resutlado y no lo cambie en resultado=sueldo*1.10).-
+
+
+
+
+
+
+- ejercicio 10 	- {
+			var importe;
+			var resultado;
+		
+			importe=document.getElementById('importe').value;
+	
+			resultado=importe*0.75;
+			alert("el importe es" + resultado);
+
+		  }
+					
+
+
+
+
+- control D (cuando marco algo presiono control D lo voy presionando y se van marcando las mismas cosas, ejemplo letras etc)
+
+-ejercicio 3 de los 3 productos
+
+					- me equivoque en la parte de cerrar el /3 con ;
+					- 
+
+
+
+- otro tema (IF)			- if(el si condicional).-
+					- me hacen una pregunta (puede ser si o no).-
+					- if (edad==15) si sale 15 me avisa, sino la maquina no me dice nada.-
+					- var edad;
+					  edad=15;
+
+					  if(edad==15)
+				          {
+						alert("niña bonita");
+					  }	
+.
+
+
+ejercicio 3 de if
+
+
+					var edad;
+					edad=document.getElementById('edad').value;
+					edad=parseint(edad);
+					if(edad>17)
+					{
+						alert("es mayor de edad");
+					}
+						if (edad>18)
+					{
+						alert("es menor de edad");
+					}
+
+						(ver po que no anda).-
+	
+
+
+
 
