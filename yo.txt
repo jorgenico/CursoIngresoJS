@@ -184,6 +184,30 @@ para cargar carpeta en gibhut		- entro en la pagina del curso ingreso js
 					}
 
 					- con este estuve luchando y me di cuenta de que me equivoque en no pones nuevamente edad luego de (&&)
+					- lo podemos utilzar 3 veces con if (pero es un quilombo), 2 veces como maximo con if (conviene).-
+
+otra forma de hacerlo 
+					var edad;
+					edad=document.getElementById('edad').value;
+
+					if (edad<13)
+					{
+						alert("niño");
+					}
+					else 
+						if (edad>18)
+
+						{
+							alert("mayor");
+						}	
+						else 
+						{
+							alert ("adolescente");
+						}
+
+
+
+
 
 
 
