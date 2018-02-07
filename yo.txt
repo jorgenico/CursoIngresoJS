@@ -155,5 +155,8 @@ para cargar carpeta en gibhut		- entro en la pagina del curso ingreso js
 					- y ahi cargo la pagina
 
 
+- cuando en el ejercicio le agrego ! (es lo no valido) ejemplo if(!(edad>12 && edad <17)) aca me marca que si no sale es menos de edad.-
+
+
 
 
