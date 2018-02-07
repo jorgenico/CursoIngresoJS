@@ -158,5 +158,33 @@ para cargar carpeta en gibhut		- entro en la pagina del curso ingreso js
 - cuando en el ejercicio le agrego ! (es lo no valido) ejemplo if(!(edad>12 && edad <17)) aca me marca que si no sale es menos de edad.-
 
 
+- if ejercicio 5 -->		- var edad;
+				  edad=document.getElementById('edad').value;
+				  if(!(edad>12&&edad<17))
+				  {
+				  	alert("no es adolescente");
+				  }
+
+
+- if ejercicio 6
+					var edad;
+					edad=document.getElementById('edad').value;
+
+					if (edad>18)
+					{
+						alert("la persona es mayor de edad");
+					}
+					else if (edad>13&&edad<17)  
+					{
+						alert("la persona es adolescente");
+					}
+					else (edad<13)
+					{
+						alert ("la persona es menor a 13 años");
+					}
+
+					- con este estuve luchando y me di cuenta de que me equivoque en no pones nuevamente edad luego de (&&)
+
+
 
 
