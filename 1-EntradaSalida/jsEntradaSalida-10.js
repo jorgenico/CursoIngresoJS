@@ -5,20 +5,15 @@ en el cuadro de texto "RESULTADO"*/
 function MostrarAumento()
 {
 	var importe;
-	var resultado;
-	var descuento;
+	var importeConDescuento;	
 
-	importe=document.getElementById('importe');
+	importe=document.getElementById('importe').value;
 	importe=parseInt(importe);
 
-	resultado=getElementById(resultado);
-	resultado=parseInt(resultado);
 
+	importeConDescuento=importe*0.75;
 
-	descuento=importe*25/100=descuento;
-	descuento=descuento+importe=resultado;
-
-	resultado=getElementById(resultado).value=;
+	document.getElementById('resultado').value=importeConDescuento;
 
 //me pierdo como en el ejercicio anterior, con el temma de mostrar descuento que aparece en la parte de HTML.-
 }

@@ -14,7 +14,7 @@ function SacarResto()
     numeroDividendo=parseInt(numeroDividendo);
     numeroDivisor=parseInt(numeroDivisor);
 
-    resto=numeroDividendo/numeroDivisor;
+    resto=numeroDividendo%numeroDivisor; //% con este calculo el resto- con / hago la division.-
     alert(" El resto de la operacion es: " + resto) ;
 
     //getElementById(resto).value=resto; (esta es otra forma de hacerlo)
