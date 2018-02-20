@@ -14,7 +14,6 @@ mesDelAño = document.getElementById('mes').value;
 		break;
 	}
 
-	case  "Febrero" :
 	
 	case  "Marzo" :
 	{
@@ -22,9 +21,6 @@ mesDelAño = document.getElementById('mes').value;
 	break;
 	}
 
-	case  "Abril" :
-	case  "Mayo" : 
-	case  "Junio" :
 	
 	case  "Julio" :
 	{
@@ -32,10 +28,6 @@ mesDelAño = document.getElementById('mes').value;
 	break;
 	}
 
-	case  "Agosto" :
-	case  "Septiembre" :
-	case  "Agosto" :
-	case  "Noviembre" :
 	
 	case  "Diciembre" :
 	{
