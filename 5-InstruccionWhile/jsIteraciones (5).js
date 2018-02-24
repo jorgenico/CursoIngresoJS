@@ -1,26 +1,27 @@
 function Mostrar()
 {
 
-
 var sexo;
+
 sexo = prompt("ingrese f ó m .");
 
-while (sexo !== "f" && sexo !== "m" )
-		
-		{
-			alert("ha ingresado un dato incorrecto, intente nuevamente");
-			sexo = prompt("ingrese f ó m .");
-		}
-			
-
-	document.getElementById('Sexo').value = sexo;
-
-
+while(sexo != "f" && sexo != "m")
+{
+	alert("reingrese un valor valido");
+	sexo = prompt("ingrese f ó m .");
 }
+	
+	if(sexo=='f')
+	{ 
+		document.getElementById('Sexo').value="femenino";
+	}
+	
+	else
+	{
+		document.getElementById('Sexo').value="masculino";
+	}
 
+//document.getElementById('Sexo').value = sexo;
+// ver en casa
 
-// habia ingresado prompt("ingrese f ó m ."); sin sexo = prompt.-
-// y se me colgaba la maquina.-
-// borre un alert por debajo de while.-
-// getElementById () devuelve el elemento que tiene el atributo ID con el valor especificado.-
-//document.getElementById('Sexo').value = sexo; (ubicacion en pantalla de lo escrito).-
+}//FIN DE LA FUNCIÓN
