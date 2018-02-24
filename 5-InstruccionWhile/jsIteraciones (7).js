@@ -4,22 +4,28 @@ function Mostrar()
 {
 	var contador = 0;
 	var acumulador = 0;
-	var respuesta = 'si';
+	var respuesta = 'si'; // respuesta de control del while.-
 	
-	while(respuesta == 'si')
-	{
-		var numero;
+	// condicion de seguir subiendo numeros?
+	while(respuesta == 'si') // quiero seguir subiendo numeros?
+		{
+			var numero;
 
-		numero = prompt("Ingrese un numero","0");
+			numero = prompt("Ingrese un numero","0");
 
-		numero = parseInt(numero);
+			numero = parseInt(numero);
+		
+			acumulador = acumulador + numero;
 
-		acumulador = acumulador + numero;
+			contador++;
+				
 
-		respuesta = prompt("¿Desea continuar la suma?:","si/no");
+			respuesta = prompt("¿Desea continuar la suma?:","si/no");
 
-		contador++;
-	}
-	document.getElementById('suma').value = acumulador;
-	document.getElementById('promedio').value = acumulador/contador;
+		}
+		
+	
+	
+	document.getElementById('suma').value = acumulador; // numeros sumados
+	document.getElementById('promedio').value = acumulador/contador; // la division de los nros sumados (x la cantidad de numeros q se ingresaron)
 }//FIN DE LA FUNCIÓN
